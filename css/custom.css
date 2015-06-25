@@ -1,0 +1,90 @@
+.find-courses header.search, .university-profile header.search {
+	background-image: url("../images/stanford.jpg");
+}
+
+.course-info header.course-profile {
+	background: url("../images/stanford.jpg") repeat scroll 0 0 / cover #F5F5F5;	
+}
+
+.view-login .introduction header {
+    background-image: url("../images/login-and-register-banner.png");
+}
+
+.view-register .introduction header {
+    background-image: url("../images/login-and-register-banner.png");
+}
+
+.home > header .title {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.home > header .title > hgroup {
+  padding: 0px 0px;
+}
+
+.home > header .title img {
+  width: 100%;
+}
+
+.home > header .outer-wrapper {
+  padding-top: 130px;
+}
+
+h1.oli_page_title {
+  background-color: #3399cc !important;
+  font-size: 25px !important;
+  color: white !important;
+  text-indent: 20px !important;
+  padding: 15px !important;
+  border-radius: 10px !important;
+}
+
+h2.oli_objective {
+  background-color: white !important;
+  font-size: 18px !important;
+  color: #007a00 !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+  padding: 15px !important;
+  border-radius: 10px !important;
+  text-transform: none !important;
+}
+
+h2.oli_example_title {
+  background-color: #d7cfba !important;
+  font-size: 18px !important;
+  color: #47331c !important;
+  padding: 15px !important;
+  border-radius: 10px !important;
+  text-transform: none !important;
+}
+
+h3 {
+  color: #3399cc !important;
+}
+
+table.oli_table {
+  width: auto !important;
+  margin: 0 auto 1em !important;
+  padding: .5em !important;
+  min-width: 250px !important;
+}
+
+.oli_table th {
+  background: #C1E0EF !important;
+}
+
+.oli_table thead {
+  display: table-header-group !important;
+  border-color: inherit !important;
+}
+
+.oli_table caption {
+  text-align: left !important;
+  padding: .5em !important;
+}
+
+em.highlight {
+  	background-color: #FF6 !important;
+}
