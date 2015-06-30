@@ -1,0 +1,25 @@
+EDXAPP_MICROSITE_CONFIGURATION:
+  oli:
+    domain_prefix: 'oli.'
+    university: "oli"
+    platform_name: 'OLI'
+    favicon_path: "oli/images/favicon.ico"
+    logo_image_url: "oli/images/oli_logo.png"
+    email_from_address: "support@oli.localhost"
+    payment_support_email: "payments@oli.localhost"
+    ENABLE_MKTG_SITE: false
+    SITE_NAME: "oli.localhost"
+    course_org_filter: "OLI"
+    css_overrides_file: "oli/css/custom.css"
+    course_about_show_social_links: false
+    show_partners: false
+    homepage_promo_video_youtube_id: "XNaiOGxWeto"
+    course_index_overlay_logo_file: "oli/images/oli_logo_bare.png"
+    course_index_overlay_text: "Open Learning Initiative"
+    course_about_show_social_links: false
+    COURSE_CATALOG_VISIBILITY_PERMISSION: "see_in_catalog"
+    COURSE_ABOUT_VISIBILITY_PERMISSION: "see_about_page"
+    course_org_filter: 'oli'
+    deploy:
+      repo: "https://{{ COMMON_GIT_MIRROR }}/Stanford-Online/microsite-oli.git"
+      version: "origin/release"
